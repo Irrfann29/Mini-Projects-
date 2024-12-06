@@ -46,7 +46,7 @@ img{
  #input-box{
     height: 50px;
     border: none;
-    font-size: 20px;
+    font-size: 22px;
     outline: none;
     margin-left: 10px;
     
@@ -66,9 +66,9 @@ img{
 } 
 ul li{
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:28px;
     padding: 23px 8px 12px 60px;
-    user-select: none;
     cursor: pointer;
     position: relative;
 
@@ -95,5 +95,23 @@ ul li.checked{
 }
 ul li.checked::before{
     background-image: url(image/tickmark.png);
+}
+ul li span {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    color:black;
+    line-height: 40px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+ul li span:hover{
+    background-color: #cfb5e9;
+    
 }
 
